@@ -1,0 +1,250 @@
+*{margin:0px;padding:0px}
+
+body {
+  background: #8FCB16;
+  font-size: 10pt;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Verdana", "Century Gothic", sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin: 0px auto;
+  height: 100%;
+}
+
+#header {
+  height: 98px;
+  background: #68441A url(images/header.png) 0px 0px repeat-x;
+}
+
+#header .container {
+  background: url(images/logo.png) 0px 0px no-repeat;
+}
+
+#nav {
+  float: right;
+}
+
+#nav li {
+  float: left;
+}
+
+#nav #lihome {
+  width: 92px;
+  height: 98px;
+}
+
+#nav #lihome a {
+  background: url(images/home_off.png) 0px 0px no-repeat;
+  display: block;
+  height: 98px;
+}
+
+#nav #lihome a.location, #nav #lihome a:hover {
+  background: url(images/home_on.png) 0px 0px no-repeat;
+}
+
+#nav #liservices {
+  width: 110px;
+  height: 98px;
+  margin-left: 4px;
+}
+
+#nav #liservices a {
+  background: url(images/services_off.png) 0px 0px no-repeat;
+  display: block;
+  height: 98px;
+}
+
+#nav #liservices a.location, #nav #liservices a:hover {
+  background: url(images/services_on.png) 0px 0px no-repeat;
+}
+
+#nav #liindustry {
+  width: 126px;
+  height: 98px;
+  margin-left: 12px;
+}
+
+#nav #liindustry a {
+  background: url(images/industry_off.png) 0px 0px no-repeat;
+  display: block;
+  height: 98px;
+}
+
+#nav #liindustry a.location, #nav #liindustry a:hover {
+  background: url(images/industry_on.png) 0px 0px no-repeat;
+}
+
+#nav #licontact {
+  width: 131px;
+  height: 98px;
+  margin-left: 10px;
+}
+
+#nav #licontact a {
+  background: url(images/contact_off.png) 0px 0px no-repeat;
+  display: block;
+  height: 98px;
+}
+
+#nav #licontact a.location, #nav #licontact a:hover {
+  background: url(images/contact_on.png) 0px 0px no-repeat;
+}
+
+span.nope {
+  display: none;
+}
+
+#bar {
+  height: 360px;
+  border-top: 18px solid #8FCB16;
+  background: white;
+  border-bottom: 18px solid #85BE12;
+  border-bottom: 18px solid #68441A;
+}
+
+#bar .container {
+  background: url(images/we_save_lives.png) 0px 13px no-repeat;
+}
+
+#content {
+  background: #8FCB16 url(images/content.png) 0px 0px repeat-x;
+  color: #68441A;
+  height: 30px;
+}
+
+p {
+  text-indent: 15px;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+  padding: 0px 2px;
+}
+
+a:hover, a:focus {
+  background: #FFF;
+  color: #68441A;
+}
+
+#left, #middle, #right {
+  width: 290px;
+  padding: 20px;
+  line-height: 1.4;
+  float: left;
+  font-size: 20px;
+}
+
+#left {
+  padding-left: 0px;
+}
+
+#left img {
+  float: left;
+  margin: 0px 10px 0px 0px;
+}
+
+#middle {
+  width: 290px;
+  background: #8FCB16;
+  background: #85BE12;
+  background: #77AF0A;
+  background: #68441A;
+  color: #FFF;
+  text-align: justify;
+  padding: 0px 20px 20px 20px;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Verdana", "Century Gothic", sans-serif;
+}
+
+#right {
+  padding-right: 0px;
+  text-align: right;
+}
+
+#right img {
+  float: right;
+  margin: 0px 0px 0px 10px;
+}
+
+#leftcolumn {
+  width: 600px;
+  float: left;
+  padding: 10px 0px;
+  font-size: 20px;
+}
+
+#leftcolumn p {
+  margin-bottom: 10px;
+}
+
+#leftcolumn img {
+  float: left;
+  margin: 10px 20px 10px 0px;
+}
+
+#rightcolumn {
+  width: 280px;
+  float: right;
+  padding: 20px 15px 15px 15px;
+  background: #68441A;
+  color: #FFF;
+  text-align: right;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+#rightcolumn a {
+  color: #8FCB16;
+}
+
+#content ul {
+  padding: 2px 0px 10px 30px;
+  list-style-type: none;
+}
+
+#content ul li {
+  border-bottom: 1px solid #AF824C;
+  padding-left: 10px;
+}
+
+#bottom {
+  clear: both;
+  background: #68441A url(images/bottom.png) 0px 0px repeat-x;
+  background: #77AF0A;
+  color: #FFF;
+  text-align: right;
+  padding: 20px 0px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 40px;
+  border-bottom: 1px solid #68441A;
+  border-bottom: 3px solid #FFF;
+  border-bottom: 3px solid #D8EFAB;
+  margin-bottom: 4px;
+}
+
+h3 {
+  border-bottom: 1px solid #68441A;
+  font-size: 24px;
+  border-bottom: 3px solid #D8EFAB;
+}
+
+#rightcolumn h3 {
+  font-size: 24px;
+  border-bottom: 1px solid #AF824C;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  text-align: right;
+}
+
+#left h3 {
+  text-align: right;
+}
